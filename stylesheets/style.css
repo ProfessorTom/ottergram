@@ -17,6 +17,10 @@ a {
   width: 100%;
 }
 
+.thumbnail-list {
+  list-style: none;
+}
+
 .thumbnail-title {
   display: block;
   margin: 0;
