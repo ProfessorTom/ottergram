@@ -68,6 +68,7 @@ a {
 
 .thumbnail-list {
   flex: 0 1 auto;
+  order: 2;
   list-style: none;
   padding: 0;
 
