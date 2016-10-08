@@ -50,13 +50,10 @@ a {
   flex-direction: column;
 }
 
-.thumbnail-item + .thumbnail-item {
-  margin-top: 10px;
-}
-
 .thumbnail-item {
   display: inline-block;
-  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
 }
@@ -69,6 +66,8 @@ a {
 .thumbnail-list {
   flex: 0 1 auto;
   order: 2;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
 
