@@ -134,5 +134,6 @@ a {
   }
   .thumbnail-list {
     flex-direction: column;
+    order: 0;
   }
 }
