@@ -125,3 +125,11 @@ a {
   font-size: 40px;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 15px 9px;
 }
+
+
+@media all and (min-width: 768px) {
+  .main-content {
+    flex-direction: row;
+    overflow: hidden;
+  }
+}
